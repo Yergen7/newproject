@@ -1,0 +1,16 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "Prints the local time in the terminal",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
